@@ -1,0 +1,5 @@
+[version "0.1.0"]
+date = Mon Dec  5 04:42:05 PM PST 2022
+done = Update Dockerfile and Makefile
+done = Move lib/register.bash -> lib/publish/register.bash
+done = Initial commit

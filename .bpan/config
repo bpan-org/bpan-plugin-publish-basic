@@ -1,0 +1,23 @@
+[bpan]
+version = 0.1.96
+updated = 2022-12-11-19-47-31
+
+[package]
+name = bpan-plugin-publish-basic
+version = 0.0.0
+title = BPAN Basic Publish Support
+license = MIT
+copyright = 2022
+type = plugin
+
+[author "github:ingydotnet"]
+name = Ingy döt Net
+email = ingy@ingy.net
+
+[update]
+file = .bpan/lib/bpan.bash
+file = License
+file = test/init
+file = test/00-shellcheck.t
+package = github:bpan-org/bashplus:@
+package = github:bpan-org/bashplus:@/err
