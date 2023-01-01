@@ -1,14 +1,16 @@
 [bpan]
-version = 0.1.96
-updated = 2022-12-11-19-47-31
+version = 0.1.107
+updated = 2023-01-01T13:17:08Z
 
 [package]
-name = bpan-plugin-publish-basic
-version = 0.0.0
+id = github:bpan-org/bpan-plugin-publish-basic
+version = 0.1.0
 title = BPAN Basic Publish Support
 license = MIT
-copyright = 2022
-type = plugin
+copyright = 2022-2023
+type = bpan:plugin
+
+irc = irc.libera.chat/bpan
 
 [author "github:ingydotnet"]
 name = Ingy döt Net
@@ -21,3 +23,5 @@ file = test/init
 file = test/00-shellcheck.t
 package = github:bpan-org/bashplus:@
 package = github:bpan-org/bashplus:@/err
+
+# vim: ft=gitconfig:
